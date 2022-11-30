@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS daily review</title>
+</head>
+<body>
+
+    <script>
+        //using function adding name in object
+        function funcname(){
+            let a=prompt("enter a name")
+            return a
+        }
+
+        //function for getting array value from user                
+        function array(){
+            let arraynew=[]
+            let arrlen=parseInt(prompt("enter arrlen"))
+            for(i=0;i<arrlen;i++){
+                let arrname=prompt("enter a arrname")
+                arraynew[i]=arrname
+                
+            }
+            return arraynew
+        }
+
+        let obj={
+            name:funcname(),//using function to do work
+            arrname:array(),
+            place:{
+                vel:"kadayam",
+                guru:"tenkasi",
+                rupu:"kpr"
+            }
+        }
+
+        console.log(obj);
+        console.log(obj["name"]);//square method
+        console.log(obj.place.guru);
+
+        //to delete some object or key and value we can use delete
+        let obj2={
+            name:"yaro",
+            id:2,
+        }
+        delete obj2.name
+        console.log(obj2);
+        
+        //to insert key and value in object use Object.assign()
+        let obj3=Object.assign({value:9594239},obj2) 
+        console.log(obj3);
+
+
+    </script>
+    
+</body>
+</html>
