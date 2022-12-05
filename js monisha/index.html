@@ -9,55 +9,87 @@
 <body>
 
     <script>
-        //using function adding name in object
-        function funcname(){
-            let a=prompt("enter a name")
-            return a
-        }
+        // //using function adding name in object
+        // function funcname(){
+        //     let a=prompt("enter a name")
+        //     return a
+        // }
 
-        //function for getting array value from user                
-        function array(){
-            let arraynew=[]
-            let arrlen=parseInt(prompt("enter arrlen"))
-            for(i=0;i<arrlen;i++){
-                let arrname=prompt("enter a arrname")
-                arraynew[i]=arrname
+        // //function for getting array value from user                
+        // function array(){
+        //     let arraynew=[]
+        //     let arrlen=parseInt(prompt("enter arrlen"))
+        //     for(i=0;i<arrlen;i++){
+        //         let arrname=prompt("enter a arrname")
+        //         arraynew[i]=arrname
                 
-            }
-            return arraynew
-        }
+        //     }
+        //     return arraynew
+        // }
 
-        let obj={
-            name:funcname(),//using function to do work
-            arrname:array(),
-            place:{
-                vel:"kadayam",
-                guru:"tenkasi",
-                rupu:"kpr"
-            }
-        }
+        // let obj={
+        //     name:funcname(),//using function to do work
+        //     arrname:array(),
+        //     place:{
+        //         vel:"kadayam",
+        //         guru:"tenkasi",
+        //         rupu:"kpr"
+        //     }
+        // }
 
-        console.log(obj);
-        console.log(obj["name"]);//square method
-        console.log(obj.place.guru);
+        // console.log(obj);
+        // console.log(obj["name"]);//square method
+        // console.log(obj.place.guru);
 
-        //to delete  key and value we can use delete 
-        let obj2={
-            name:"yaro",
-            id:2,
-        }
-        delete obj2.name
-        console.log(obj2);
+        // //to delete  key and value we can use delete 
+        // let obj2={
+        //     name:"yaro",
+        //     id:2,
+        // }
+        // delete obj2.name
+        // console.log(obj2);
         
-        //to insert key and value in object use Object.assign()
-        // let obj3=Object.assign({value:9594239},obj2) 
-        obj2.place='Tvl';
-        console.log(obj2);
+        // //to insert key and value in object use Object.assign()
+        // // let obj3=Object.assign({value:9594239},obj2) 
+        // obj2.place='Tvl';
+        // console.log(obj2);
 
-        //to how rename key in object
-        obj2["number"]=obj2["id"]
-        delete obj2["id"]
-        console.log(obj2);
+        // //to how rename key in object
+        // obj2["number"]=obj2["id"]
+        // delete obj2["id"]
+        // console.log(obj2);
+
+
+       
+            //05/12/2022
+
+        // let a=parseInt(prompt("enter a number"))
+        // switch(a){
+        //     case 1:{
+        //         document.write("one")
+        //         break;
+        //     }
+        //     case 2:{
+        //         document.write("two")
+        //         break;
+        //     }
+        //     case 3:{
+        //         document.write("three")
+        //         break;
+        //     }
+        // }
+
+
+        // let a=parseInt(prompt("enter a number"))
+        // if(a%5==0){
+        //     document.write("divisible by 5")
+        // }
+        // else{
+        //     document.write("not divisible by 5")
+        // }
+
+
+       
        
 
 
