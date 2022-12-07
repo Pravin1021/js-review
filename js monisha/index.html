@@ -93,30 +93,93 @@
         
          //Grading system for students
          
-         let mark=parseInt(prompt("Enter a mark"))
-         if(mark>80){
-            document.write("A grade")
-         }
-         else if(mark>60 && mark<=80){
-            document.write("B grade")
-         }
-         else if(mark>50 && mark<=60){
-            document.write("C grade")
-         }
-         else if(mark>45 && mark<=50){
-            document.write("D grade")
-         }
-         else if(mark>25 && mark<=45){
-            document.write("E grade")
+         // let mark=parseInt(prompt("Enter a mark"))
+         // if(mark>80){
+         //    document.write("A grade")
+         // }
+         // else if(mark>60 && mark<=80){
+         //    document.write("B grade")
+         // }
+         // else if(mark>50 && mark<=60){
+         //    document.write("C grade")
+         // }
+         // else if(mark>45 && mark<=50){
+         //    document.write("D grade")
+         // }
+         // else if(mark>25 && mark<=45){
+         //    document.write("E grade")
+         // }
+         // else{
+         //    document.write("F grade")
+         // }
+
+
+
+         // let height=prompt("enter the height")
+         // if(height>195){
+         //    document.write("abnormal")
+         // }
+         // else if(height>165 && height<=195){
+         //    document.write("normal height")
+         // }
+         // else if(height>150 && height<=165){
+         //    document.write("small")
+         // }
+         // else{
+         //    document.write("very small")
+         // }
+
+
+         //07-12-2022
+
+      //    let value = prompt("Enter the Values");
+        
+      //   if("a"<= value && value <="z"){
+      //       document.write("small letter");
+      //   }
+      //   else if("A"<= value && value <="Z"){
+      //       document.write("Caps letter")
+      //    }
+      //   else if(value >=0){
+      //       document.write(" This is number");
+      //   }
+      //   else{
+      //       document.write("sympols");
+      //   }
+
+
+      let a=parseInt(prompt("enter A age"))
+      let b=parseInt(prompt("enter B age"))
+      let c=parseInt(prompt("enter C age"))
+      if(a>b&&a>c){
+         document.write("A is oldest")
+         if(b<c){
+            document.write("B is youngest")
          }
          else{
-            document.write("F grade")
+            document.write("C is youngest")
          }
-
-
-
-
-
+      }
+      else if(b>a&&b>c){
+         document.write("B is oldest")
+         if(a<c){
+            document.write("A is youngest")
+         }
+         else{
+            document.write("C is youngest")
+         }
+      }
+      else{
+         document.write("C is oldest")
+         if(a<b){
+            document.write("A is youngest")
+         }
+         else{
+            document.write("B is youngest")
+         }
+      
+      }
+         
 
 
 
