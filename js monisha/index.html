@@ -148,42 +148,90 @@
       //   }
 
 
-      let a=parseInt(prompt("enter A age"))
-      let b=parseInt(prompt("enter B age"))
-      let c=parseInt(prompt("enter C age"))
-      if(a>b&&a>c){
-         document.write("A is oldest")
-         if(b<c){
-            document.write("B is youngest")
-         }
-         else{
-            document.write("C is youngest")
-         }
-      }
-      else if(b>a&&b>c){
-         document.write("B is oldest")
-         if(a<c){
-            document.write("A is youngest")
-         }
-         else{
-            document.write("C is youngest")
-         }
-      }
-      else{
-         document.write("C is oldest")
-         if(a<b){
-            document.write("A is youngest")
-         }
-         else{
-            document.write("B is youngest")
-         }
+      // let a=parseInt(prompt("enter A age"))
+      // let b=parseInt(prompt("enter B age"))
+      // let c=parseInt(prompt("enter C age"))
+      // document.write("A age is" + a + ("<br>"))
+      // document.write("B age is" + b + ("<br>"))
+      // document.write("C age is" + c + ("<br>"))
+      // if(a>b&&a>c){
+      //    document.write("A is oldest")
+      //    if(b<c){
+      //       document.write("B is youngest")
+      //    }
+      //    else{
+      //       document.write("C is youngest")
+      //    }
+      // }
+      // else if(b>a&&b>c){
+      //    document.write("B is oldest")
+      //    if(a<c){
+      //       document.write("A is youngest")
+      //    }
+      //    else{
+      //       document.write("C is youngest")
+      //    }
+      // }
+      // else{
+      //    document.write("C is oldest")
+      //    if(a<b){
+      //       document.write("A is youngest")
+      //    }
+      //    else{
+      //       document.write("B is youngest")
+      //    }
       
-      }
+      // }
+        
+      
+
+      // for(intial value;condition;increament or decreament){
+      //    //code block
+      // }
+
+      // initia
+      // do{
+      //    //code block
+      //    //increament or decreament
+      // }
+      // while(condition)
+
+
+      // initial value
+      // while(condition){
+      //    //code block
+      //    //increament or decreament
+      // }
+
+
+      // for(i=700;i>=600;i--){
+      //       document.write(i + "<br>");
+      // }
+
+      // let i=700
+      // while(i>=600){
+      //    document.write(i + "<br>");
+      //    i--
+      // }
+
+      // for(i=700;i>=600;i=i-2){
          
+      //       document.write(i + ("<br>"))
+         
+      // }
 
 
 
-
+         let value=45653
+         let sum=0
+         while(value>0){
+            let remain=value%10
+             value=(value-remain)/10
+            sum=(sum*10)+remain
+           
+         }
+         document.write(sum)
+         
 
     </script>
     
