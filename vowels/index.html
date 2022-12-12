@@ -7,36 +7,74 @@
     <title>Vowels find and delete</title>
 </head>
 <body>
-    <input type="text" id="inputs" value="" placeholder="Enter a word"/>
+    <!-- <input type="text" id="inputs" value="" placeholder="Enter a word"/>
     <button onclick="myFunc1()" id="btn">Find Vowles</button>
     <button onclick="myFunc2()" id="btn2">Find vowels count</button>
     <h1 id="ps"></h1>
-    <h1 id="os"></h1>
+    <h1 id="os"></h1> -->
 
 <script>
-    function myFunc1(){
-	let text=document.getElementById("inputs").value;
-	let array=[];
-	for(i=0;i<=text.length;i++){
-		if(text[i]=='a'||text[i]=='e'||text[i]=='i'||text[i]=='o'||text[i]=='u'){
-		  array+=text[i];
-		}
-        }
-    let head1= document.getElementById("ps");
-    head1.innerHTML=array;
-}
+//     function myFunc1(){
+// 	let text=document.getElementById("inputs").value;
+// 	let array=[];
+// 	for(i=0;i<=text.length;i++){
+		// if(text[i]=='a'||text[i]=='e'||text[i]=='i'||text[i]=='o'||text[i]=='u'){
+		//   array+=text[i];
+		// }
+//         }
+//     let head1= document.getElementById("ps");
+//     head1.innerHTML=array;
+// }
 
-    function myFunc2(){
-    let text=document.getElementById("inputs").value;
-	let count=0;
-	for(i=0;i<=text.length;i++){
-	if(text[i]=='a'||text[i]=='e'||text[i]=='i'||text[i]=='o'||text[i]=='u'){
-		  count+=1;
-		}
-	}
-    let head2= document.getElementById("os");
-    head2.innerHTML=count;
-    }
+//     function myFunc2(){
+//     let text=document.getElementById("inputs").value;
+// 	let count=0;
+// 	for(i=0;i<=text.length;i++){
+// 	if(text[i]=='a'||text[i]=='e'||text[i]=='i'||text[i]=='o'||text[i]=='u'){
+// 		  count+=1;
+// 		}
+// 	}
+//     let head2= document.getElementById("os");
+//     head2.innerHTML=count;
+//     }
+
+
+
+    //Getting which string has more vowels
+    // let name1=prompt("enter a name1")
+    // let name2=prompt("enter a name2")
+    // let array1=[]
+    // let remove1=name1.replace(/[aeiou]/gi, '')  
+    // document.write("without vowels " + remove1 + ("<br>"))
+    // let remove2=name2.replace(/[aeiou]/gi, '')
+    // document.write("without vowels " + remove2 + ("<br>"))
+    // for(i=0;i<=name1.length;i++){
+    //     if(name1[i]=='a'||name1[i]=='e'||name1[i]=='i'||name1[i]=='o'||name1[i]=='u'){
+	// 	  array1+=name1[i];
+	// 	}
+    // }
+    // document.write(array1 + ("<br>"))
+
+    // let array2=[]
+    // for(i=0;i<=name2.length;i++){
+    //     if(name2[i]=='a'||name2[i]=='e'||name2[i]=='i'||name2[i]=='o'||name2[i]=='u'){
+	// 	  array2+=name2[i];
+	// 	}
+    // }
+    // document.write(array2 + ("<br>"))
+
+    // if(array1.length>array2.length){
+    //     document.write(name1 + " has more vowels")
+    // }
+    // else{
+    //     document.write(name2 + " has more vowels")
+    // }
+
+
+
+
+
+
     </script>
 </body>
 </html>
