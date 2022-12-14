@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse a number in word</title>
+</head>
+<body>
+    <input type="number" id="getnumber" placeholder="Enter a number">
+    <h1 id="revnum"></h1>
+    <h2 id="textout"></h2>
+    <button id="btn">Print</button>
+    <script>
+        let btn=document.getElementById("btn")
+        btn.addEventListener("click",myFunc)
+        function myFunc(){
+            let getnum=document.getElementById("getnumber").value
+            let sum=0
+            while(getnum>0){
+                let remain=getnum%10
+                getnum=(getnum-remain)/10
+                sum=(sum*10)+remain
+           
+         }
+         let num=document.getElementById("revnum")
+         num.innerHTML=sum
+        }
+    </script>
+</body>
+</html>
